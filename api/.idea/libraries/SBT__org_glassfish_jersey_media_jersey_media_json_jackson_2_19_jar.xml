@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.glassfish.jersey.media:jersey-media-json-jackson:2.19:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.glassfish.jersey.media/jersey-media-json-jackson/jars/jersey-media-json-jackson-2.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.glassfish.jersey.media/jersey-media-json-jackson/srcs/jersey-media-json-jackson-2.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

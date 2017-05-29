@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="SBT 1" modules="api,common,sharedJVM" />
+    <profile name="SBT 2" modules="backend,scalaFilter,basicGenerator,fileGenerator,remoteGenerator,specificGenerator,template,metaModelRelease">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+      </parameters>
+    </profile>
+    <profile name="SBT 3" modules="client,sharedJS">
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/Users/mgt/git/zeta/api/-&gt;" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.7/jars/scalajs-compiler_2.11.7-0.6.4.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 4" modules="server">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-adapted-args" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-inaccessible" />
+        <parameter value="-Ywarn-nullary-override" />
+        <parameter value="-Ywarn-numeric-widen" />
+      </parameters>
+    </profile>
+  </component>
+</project>

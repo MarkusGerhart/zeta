@@ -1,0 +1,13 @@
+metaModelRelease
+specificGenerator
+remoteGenerator
+fileGenerator
+basicGenerator
+scalaGeneratorTemplate
+scalaFilter
+backend
+common
+sharedJs
+sharedJvm
+client
+server

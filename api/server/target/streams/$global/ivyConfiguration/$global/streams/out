@@ -1,0 +1,8 @@
+[debug] Other repositories:
+[debug] Default repositories:
+[debug] Using inline dependencies specified in Scala.
+[warn] Binary version (2.11.0-M7) for dependency org.scala-lang#scala-swing;2.11.0-M7
+[warn] 	in api#api_2.11;0.1 differs from Scala binary version in project (2.11).
+[debug] Using inline dependencies specified in Scala.
+[warn] Binary version (2.11.0-M7) for dependency org.scala-lang#scala-swing;2.11.0-M7
+[warn] 	in api#api$sources_2.11;0.1 differs from Scala binary version in project (2.11).

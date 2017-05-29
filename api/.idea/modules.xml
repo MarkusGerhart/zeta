@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api.iml" filepath="$PROJECT_DIR$/.idea/modules/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/api-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend.iml" filepath="$PROJECT_DIR$/.idea/modules/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend-build.iml" filepath="$PROJECT_DIR$/.idea/modules/backend-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basicGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/basicGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basicGenerator-build.iml" filepath="$PROJECT_DIR$/.idea/modules/basicGenerator-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-build.iml" filepath="$PROJECT_DIR$/.idea/modules/client-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-build.iml" filepath="$PROJECT_DIR$/.idea/modules/common-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/fileGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileGenerator-build.iml" filepath="$PROJECT_DIR$/.idea/modules/fileGenerator-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metaModelRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/metaModelRelease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metaModelRelease-build.iml" filepath="$PROJECT_DIR$/.idea/modules/metaModelRelease-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/remoteGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/remoteGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/remoteGenerator-build.iml" filepath="$PROJECT_DIR$/.idea/modules/remoteGenerator-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaFilter.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaFilter-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaFilter-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-build.iml" filepath="$PROJECT_DIR$/.idea/modules/server-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJS.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJVM-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJVM-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specificGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/specificGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specificGenerator-build.iml" filepath="$PROJECT_DIR$/.idea/modules/specificGenerator-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/template.iml" filepath="$PROJECT_DIR$/.idea/modules/template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/template-build.iml" filepath="$PROJECT_DIR$/.idea/modules/template-build.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,93 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# backend connection
+GET         /socket/developer                controllers.BackendController.developer
+GET         /socket/generator/:id            controllers.BackendController.generator(id: String)
+GET         /socket/user/:model              controllers.BackendController.user(model: String)
+
+# Home page
+GET         /                                controllers.ApplicationController.index
+GET         /user                            controllers.ApplicationController.user
+GET         /signOut                         controllers.ApplicationController.signOut
+GET         /authenticate/:provider          controllers.SocialAuthController.authenticate(provider)
+
+GET         /signUp                          controllers.SignUpController.view
+POST        /signUp                          controllers.SignUpController.submit
+
+GET         /signIn                          controllers.SignInController.view
+POST        /signIn                          controllers.SignInController.submit
+
+GET         /password/forgot                 controllers.ForgotPasswordController.view
+POST        /password/forgot                 controllers.ForgotPasswordController.submit
+GET         /password/reset/:token           controllers.ResetPasswordController.view(token: java.util.UUID)
+POST        /password/reset/:token           controllers.ResetPasswordController.submit(token: java.util.UUID)
+GET         /password/change                 controllers.ChangePasswordController.view
+POST        /password/change                 controllers.ChangePasswordController.submit
+
+GET         /account/email/:email            controllers.ActivateAccountController.send(email: String)
+GET         /account/activate/:token         controllers.ActivateAccountController.activate(token: java.util.UUID)
+
+
+### Webpage
+GET            /                                                                     @controllers.webpage.WebpageController.index
+GET           /overview                                                              @controllers.webpage.WebpageController.diagramsOverview(uuid: String = null)
+GET           /overview/:uuid                                                        @controllers.webpage.WebpageController.diagramsOverview(uuid: String)
+
+
+# metamodel editor
+GET           /metamodel/editor/:metaModelUuid                                       @controllers.MetaModelController.metaModelEditor(metaModelUuid: String)
+GET           /metamodel/socket/:metaModelUuid                                       @controllers.MetaModelController.metaModelSocket(metaModelUuid: String)
+
+### model editor
+GET           /model/editor/:metaModelUuid/:modelUuid                                @controllers.ModelController.modelEditor(metaModelUuid: String, modelUuid: String)
+GET           /model/socket/:graphType/:instanceId                                   @controllers.ModelController.modelSocket(instanceId:String, graphType:String)
+GET           /model/validator                                                       @controllers.ModelController.modelValidator
+
+### vr
+GET           /model/vreditor/:metaModelUuid/:modelUuid                                @controllers.ModelController.vrModelEditor(metaModelUuid: String, modelUuid: String)
+
+# temporary
+GET           /generator/:metaModelUuid                                              @controllers.GeneratorController.generate(metaModelUuid: String)
+
+### MetaModel REST API
+GET           /metamodels                                                            @controllers.restApi.MetaModelRestApi.showForUser
+POST          /metamodels                                                            @controllers.restApi.MetaModelRestApi.insert
+PUT           /metamodels/:metaModelId                                               @controllers.restApi.MetaModelRestApi.update(metaModelId: String)
+GET           /metamodels/:metaModelId                                               @controllers.restApi.MetaModelRestApi.get(metaModelId: String)
+DELETE        /metamodels/:metaModelId                                               @controllers.restApi.MetaModelRestApi.delete(metaModelId: String)
+GET           /metamodels/:metaModelId/definition                                    @controllers.restApi.MetaModelRestApi.getMetaModelDefinition(metaModelId: String)
+PUT           /metamodels/:metaModelId/definition                                    @controllers.restApi.MetaModelRestApi.updateMetaModelDefinition(metaModelId: String)
+GET           /metamodels/:metaModelId/definition/mclasses                           @controllers.restApi.MetaModelRestApi.getMClasses(metaModelId: String)
+GET           /metamodels/:metaModelId/definition/mreferences                        @controllers.restApi.MetaModelRestApi.getMReferences(metaModelId: String)
+GET           /metamodels/:metaModelId/definition/mclasses/:mClassName               @controllers.restApi.MetaModelRestApi.getMClass(metaModelId: String, mClassName: String)
+GET           /metamodels/:metaModelId/definition/mreferences/:mReferenceName        @controllers.restApi.MetaModelRestApi.getMReference(metaModelId: String, mReferenceName: String)
+GET           /metamodels/:metaModelId/shape                                         @controllers.restApi.MetaModelRestApi.getShape(metaModelId: String)
+PUT           /metamodels/:metaModelId/shape                                         @controllers.restApi.MetaModelRestApi.updateShape(metaModelId: String)
+GET           /metamodels/:metaModelId/style                                         @controllers.restApi.MetaModelRestApi.getStyle(metaModelId: String)
+PUT           /metamodels/:metaModelId/style                                         @controllers.restApi.MetaModelRestApi.updateStyle(metaModelId: String)
+GET           /metamodels/:metaModelId/diagram                                       @controllers.restApi.MetaModelRestApi.getDiagram(metaModelId: String)
+PUT           /metamodels/:metaModelId/diagram                                       @controllers.restApi.MetaModelRestApi.updateDiagram(metaModelId: String)
+
+### Model REST API
+GET           /models                                                                @controllers.restApi.ModelRestApi.showForUser
+POST          /models                                                                @controllers.restApi.ModelRestApi.insert
+PUT           /models/:modelId                                                       @controllers.restApi.ModelRestApi.update(modelId: String)
+GET           /models/:modelId                                                       @controllers.restApi.ModelRestApi.get(modelId: String)
+GET           /models/:modelId/definition                                            @controllers.restApi.ModelRestApi.getModelDefinition(modelId: String)
+PUT           /models/:modelId/definition                                            @controllers.restApi.ModelRestApi.updateModel(modelId: String)
+GET           /models/:modelId/definition/nodes                                      @controllers.restApi.ModelRestApi.getNodes(modelId: String)
+GET           /models/:modelId/definition/nodes/:nodeName                            @controllers.restApi.ModelRestApi.getNode(modelId: String, nodeName: String)
+GET           /models/:modelId/definition/edges                                      @controllers.restApi.ModelRestApi.getEdges(modelId: String)
+GET           /models/:modelId/definition/edges/:edgeName                            @controllers.restApi.ModelRestApi.getEdge(modelId: String, edgeName: String)
+DELETE        /models/:modelId                                                       @controllers.restApi.ModelRestApi.delete(modelId: String)
+
+### Code Editor
+GET           /codeeditor/editor/:metaModelUuid/:dslType                             @controllers.CodeEditorController.codeEditor(metaModelUuid: String, dslType: String)
+GET           /codeeditor/socket/:metaModelUuid/:dslType                             @controllers.CodeEditorController.codeSocket(metaModelUuid: String, dslType: String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file                    controllers.Assets.at(path="/public", file)
+GET         /webjars/*file                   controllers.WebJarAssets.at(file)
+GET         /model_specific/*file            @controllers.DynamicFileController.serveFile(file)

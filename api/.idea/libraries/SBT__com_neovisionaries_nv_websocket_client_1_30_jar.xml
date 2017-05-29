@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.neovisionaries:nv-websocket-client:1.30:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.neovisionaries/nv-websocket-client/bundles/nv-websocket-client-1.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.neovisionaries/nv-websocket-client/srcs/nv-websocket-client-1.30-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/backend" />
+            <option value="$PROJECT_DIR$/backend/project" />
+            <option value="$PROJECT_DIR$/client" />
+            <option value="$PROJECT_DIR$/client/project" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/project" />
+            <option value="$PROJECT_DIR$/images/filter/scala" />
+            <option value="$PROJECT_DIR$/images/filter/scala/project" />
+            <option value="$PROJECT_DIR$/images/generator/basic" />
+            <option value="$PROJECT_DIR$/images/generator/basic/project" />
+            <option value="$PROJECT_DIR$/images/generator/file" />
+            <option value="$PROJECT_DIR$/images/generator/file/project" />
+            <option value="$PROJECT_DIR$/images/generator/remote" />
+            <option value="$PROJECT_DIR$/images/generator/remote/project" />
+            <option value="$PROJECT_DIR$/images/generator/specific" />
+            <option value="$PROJECT_DIR$/images/generator/specific/project" />
+            <option value="$PROJECT_DIR$/images/generator/template" />
+            <option value="$PROJECT_DIR$/images/generator/template/project" />
+            <option value="$PROJECT_DIR$/images/metamodel/release" />
+            <option value="$PROJECT_DIR$/images/metamodel/release/project" />
+            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/server/project" />
+            <option value="$PROJECT_DIR$/shared" />
+            <option value="$PROJECT_DIR$/shared/.js" />
+            <option value="$PROJECT_DIR$/shared/.js/project" />
+            <option value="$PROJECT_DIR$/shared/.jvm" />
+            <option value="$PROJECT_DIR$/shared/.jvm/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="0.13.11" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+@(user: Option[User])
+@import helper._
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-overview">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="/">
+                <img src="@routes.Assets.at("webpage/images/modigen_logo.png")" style="max-height:40px ; padding-bottom:18px">
+            </a>
+            <div id="metamodel-name"></div>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-overview">
+            <ul class="nav navbar-nav navbar-right">
+                @user match {
+                    case Some(u) => {
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <span class="glyphicon glyphicon-lock" aria-hidden="true"> </span>
+                                <span>@u.fullName</span>
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu navbar-right" role="menu">
+                               <!-- <li><a href="controllers.webpage.routes.ProfileController.overview">Profile</a></li> -->
+                                <li><a href="@routes.ChangePasswordController.view">Change Password</a></li>
+                                <li><a href="@routes.ApplicationController.signOut">Logout</a></li>
+                            </ul>
+                        </li>
+                    }
+                    case _ => {}
+                }
+            </ul>
+        </div>
+    </div>
+</nav>

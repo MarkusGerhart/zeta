@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="shared"
+		module="shared$sources_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170314102133"/>
+	<dependencies>
+		<module organisation="com.github.jahoefne" name="scalot_2.11">
+			<revision name="1.0" status="release" pubdate="20150908184604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jahoefne" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2926" time="0" location="/Users/mgt/.ivy2/cache/com.github.jahoefne/scalot_2.11/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jahoefne/scalot_2.11/1.0/scalot_2.11-1.0.pom"/>
+				<caller organisation="shared" name="shared$sources_2.11" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalot_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5498" time="0" location="/Users/mgt/.ivy2/cache/com.github.jahoefne/scalot_2.11/srcs/scalot_2.11-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jahoefne/scalot_2.11/1.0/scalot_2.11-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="upickle_2.11">
+			<revision name="0.3.4" status="release" pubdate="20150714080314" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3339" time="0" location="/Users/mgt/.ivy2/cache/com.lihaoyi/upickle_2.11/ivy-0.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/lihaoyi/upickle_2.11/0.3.4/upickle_2.11-0.3.4.pom"/>
+				<caller organisation="shared" name="shared$sources_2.11" conf="compile, runtime" rev="0.3.4" rev-constraint-default="0.3.4" rev-constraint-dynamic="0.3.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="upickle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10706" time="0" location="/Users/mgt/.ivy2/cache/com.lihaoyi/upickle_2.11/srcs/upickle_2.11-0.3.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/lihaoyi/upickle_2.11/0.3.4/upickle_2.11-0.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="jawn-parser_2.11">
+			<revision name="0.7.0" status="release" pubdate="20141118190051" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2740" time="0" location="/Users/mgt/.ivy2/cache/org.spire-math/jawn-parser_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.11/0.7.0/jawn-parser_2.11-0.7.0.pom"/>
+				<caller organisation="shared" name="shared$sources_2.11" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jawn-parser_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17419" time="0" location="/Users/mgt/.ivy2/cache/org.spire-math/jawn-parser_2.11/srcs/jawn-parser_2.11-0.7.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.11/0.7.0/jawn-parser_2.11-0.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="derive_2.11">
+			<revision name="0.3.4" status="release" pubdate="20150714080232" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3058" time="0" location="/Users/mgt/.ivy2/cache/com.lihaoyi/derive_2.11/ivy-0.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/lihaoyi/derive_2.11/0.3.4/derive_2.11-0.3.4.pom"/>
+				<caller organisation="shared" name="shared$sources_2.11" conf="compile, runtime" rev="0.3.4" rev-constraint-default="0.3.4" rev-constraint-dynamic="0.3.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="derive_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5462" time="0" location="/Users/mgt/.ivy2/cache/com.lihaoyi/derive_2.11/srcs/derive_2.11-0.3.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/lihaoyi/derive_2.11/0.3.4/derive_2.11-0.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="utest_2.11">
+			<revision name="0.3.1" status="release" pubdate="20150309015720" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/utest" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3059" time="0" location="/Users/mgt/.ivy2/cache/com.lihaoyi/utest_2.11/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/lihaoyi/utest_2.11/0.3.1/utest_2.11-0.3.1.pom"/>
+				<caller organisation="shared" name="shared$sources_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="utest_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19974" time="0" location="/Users/mgt/.ivy2/cache/com.lihaoyi/utest_2.11/srcs/utest_2.11-0.3.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/lihaoyi/utest_2.11/0.3.1/utest_2.11-0.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130629004435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="6">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/mgt/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="shared" name="shared$sources_2.11" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="/Users/mgt/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.4" status="release" pubdate="20141023173505" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.4/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="/Users/mgt/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.pom"/>
+				<caller organisation="shared" name="shared$sources_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.4/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="559287" time="0" location="/Users/mgt/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150622221702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/mgt/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="shared" name="shared$sources_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/mgt/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
